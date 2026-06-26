@@ -45,4 +45,5 @@ class Payment:
             return
         if amount <= 0 or not isinstance(amount, float):
             print("Paymont amount is incorrect")
+            return
         self._strategy.pay(amount)

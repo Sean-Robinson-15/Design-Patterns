@@ -147,7 +147,7 @@ class HomeAutomation:
         #creating objects
         motion_sensor = Sensor("Motion Sensor", "UUID-1234")
         dimmer = Sensor("Dimmer", "UUID-4321")
-        thermostat = Sensor("Thermostat", "UUID-4321")
+        thermostat = Sensor("Thermostat", "UUID-4322")
         keypad = Sensor("Keypad", "UUID-8765")
         door_lock = Lock("Front Door Lock", "UUID-3456")
         light = Light("Living Room Light", "UUID-5678")
